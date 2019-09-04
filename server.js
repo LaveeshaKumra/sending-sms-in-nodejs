@@ -20,10 +20,10 @@ app.get("/",function(req,res){
 
 app.post('/ss', function(req, res) {
 	 console.log(req.body.num);
-  var accountSid = 'AC84511a70e616f9f0c67545f8ce61d85d'; 
+  var accountSid = 'AC8xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; 
   // Your Account SID from www.twilio.com/console 
   
-var authToken = 'f933f85129a8defe22d3ceab00f5cf52';   
+var authToken = 'f9xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';   
 // Your Auth Token from www.twilio.com/console
 
 var client = new twilio(accountSid, authToken);
