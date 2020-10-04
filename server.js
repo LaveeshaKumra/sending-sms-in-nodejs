@@ -1,6 +1,6 @@
 var http = require('http');
 var express = require('express');
-var twilio = require('twilio');
+var twilio = require('twilio'); //include twillo after installing twillo in node modules
 var app = express();
 var bodyParser=require('body-parser');
 app.use(bodyParser.json());//support json urlencoded bodies
