@@ -6,8 +6,7 @@ var bodyParser=require('body-parser');
 app.use(bodyParser.json());//support json urlencoded bodies
 app.use(bodyParser.urlencoded({extended:true}));
 var twilio = require('twilio');
-
-
+app.use(cors());
 var path=require('path');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
